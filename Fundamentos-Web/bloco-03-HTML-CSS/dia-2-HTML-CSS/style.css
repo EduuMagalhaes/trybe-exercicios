@@ -1,0 +1,39 @@
+h1{
+  font-family: sans-serif;
+}
+p{
+  font-weight: 600;
+  font-size: 3em;
+  text-decoration: underline gray;
+  text-align: center;
+}
+body{
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+li {
+  font-size: 2em;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 800;
+
+}
+.title{
+  text-align: center;
+}
+#laranja{
+  background-color: rgba(255, 187, 0, 0.911);
+  color: white;
+}
+#preto{
+  background-color: rgb(48, 45, 44);
+  color: white;
+}
+#cinza{
+  background-color: rgb(109, 108, 108);
+  color: white;
+}
+#azul{
+  background-color: rgb(91, 91, 236);
+  color: white;
+}
