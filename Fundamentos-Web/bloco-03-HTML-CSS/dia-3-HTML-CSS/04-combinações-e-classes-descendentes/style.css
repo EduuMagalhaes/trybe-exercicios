@@ -1,0 +1,50 @@
+ol{
+  background-color: rgb(247, 247, 126);
+}
+ol li:nth-child(2n){
+  background-color: rgb(92, 184, 92);
+}
+ol li:nth-child(2n+1){
+  text-transform: uppercase;
+}
+
+.header {
+  color: rgb(182, 22, 22);
+}
+.header em{
+  font-size: 40px;
+  border: 1px black solid;
+}
+
+li{
+  font-size: 20px;
+}
+li em{
+  font-weight: bolder;
+}
+
+#linguagen li:nth-of-type(-n+3){
+  color: rgb(52, 52, 179);
+}
+.contJava{
+  background-color: rgb(196, 21, 187);
+}
+
+.maioresAliados li a:hover{
+  font-weight: bolder;   
+}
+.maioresAliados li a[href*="stackoverflow"] {
+  color: orange;
+}
+.maioresAliados li a[href*="w3schools"] {
+  color: #04AA6D;
+}
+.maioresAliados li a[href*="mozilla"] {
+  color: black;
+}
+.maioresAliados li a[href*="devdocs"] {
+  color: yellow;
+}
+.maioresAliados li a[href*="trybe"] {
+  color:green;
+}
