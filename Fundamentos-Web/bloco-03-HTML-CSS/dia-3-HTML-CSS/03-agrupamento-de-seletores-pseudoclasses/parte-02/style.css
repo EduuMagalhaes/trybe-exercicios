@@ -1,0 +1,43 @@
+div:hover {
+  border:1px solid black;
+}
+
+#primaria{
+  background-color: rgb(91, 91, 180);
+}
+#secundaria{
+  background-color: rgb(102, 173, 102);
+}
+#complementar{
+  background-color: rgb(173, 92, 133);
+  height: 100px
+}
+#escura{
+  background-color: rgb(114, 114, 114);
+}
+#clara{
+  background-color: rgb(211, 211, 211);
+}
+
+#primaria h3{
+  font-size: 25px;
+  color: white;
+  font-style: italic;
+}
+#secundaria h3{
+  font-family: sans-serif;
+}
+#complementar h3{
+  font-size: 15px;
+  color: white;
+  font-style: italic;
+}
+#escura h3{
+  font-family:Helvetica, sans-serif;
+  font-size: 20px;
+}
+#clara h3{
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
