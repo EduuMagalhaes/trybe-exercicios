@@ -103,6 +103,18 @@ footer section p{
   border-radius: 100%;
 
 }
-
+.list-ref{
+  display: inline-block; 
+  font-size: 22px;
+  width: 200px; 
+  text-align: center;  
+  list-style:square;  
+}
+.section-ref{
+  text-align: center; 
+}
+#aside {
+  text-align: center;
+}
 
 
