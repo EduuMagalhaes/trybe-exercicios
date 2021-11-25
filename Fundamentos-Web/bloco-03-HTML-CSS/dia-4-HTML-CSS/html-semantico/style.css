@@ -1,0 +1,117 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 0px;
+  height: 100%; 
+  display: block;    
+}
+.header{
+  border: 1px rgb(65, 65, 65) solid;
+  color: rgb(65, 65, 65);
+  text-transform: uppercase;
+  font-weight: bolder; 
+  text-align: center; 
+  background-color: rgb(248, 248, 248); 
+}
+.title-header{  
+  margin: 0px;
+  font-size: 35px;
+  padding: 18px;
+}
+.list-header{  
+  display: inline-block; 
+  font-size: 22px;
+  width: 200px;     
+}
+.nav-header{  
+  border: 1px rgb(65, 65, 65) solid;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.title-section{
+  height: 80px;
+  border: 1px rgb(65, 65, 65) solid;
+}
+
+.main-article{
+  padding-right: 180px;
+  padding-left: 180px; 
+}
+
+#stomatopoda-img1{ 
+  text-align: center;     
+}
+#stomatopoda-img1 img{
+  width: 400px;
+  padding-top: 15px;   
+}
+.header-general-information{
+  color: rgb(65, 65, 65);
+  text-align: center;
+  margin: 20px;  
+}
+.header-general-information h2{
+  margin: 0px;
+}
+.info-table{
+  padding: 10px; 
+  margin: auto; 
+}
+.info-table, th, td{
+  width: 250px;
+  border: 1px rgb(65, 65, 65) solid;
+  text-align: center;
+}  
+
+.visao {   
+  margin: 20px;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(248, 248, 248);
+
+}
+.soco{     
+  margin: 20px;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(248, 248, 248);
+}
+
+.decr-img{
+  margin: 0px;
+  padding-bottom: 40px;
+}
+footer{
+  border: 1px rgb(65, 65, 65) solid;
+  color: rgb(65, 65, 65);
+  height: 30px;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  
+}
+footer section p{
+  padding: 5px;
+  margin: 0px;
+}
+
+.img-curious{
+  width: 180px;
+  border-radius: 100%;
+}
+.list-ref{
+  display: inline-block; 
+  font-size: 22px;
+  width: 200px; 
+  text-align: center;  
+  list-style:square;  
+}
+.section-ref{
+  text-align: center; 
+}
+#aside {
+  text-align: center;
+}
