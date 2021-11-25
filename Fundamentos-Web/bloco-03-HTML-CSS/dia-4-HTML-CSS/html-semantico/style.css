@@ -1,0 +1,15 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0px;
+  height: 100%; 
+  display: block;    
+}
+header{
+  border: 1px rgb(65, 65, 65) solid;  
+}
+.title-header{
+  color: rgb(65, 65, 65);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px;
+}
