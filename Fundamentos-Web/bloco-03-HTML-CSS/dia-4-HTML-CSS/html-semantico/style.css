@@ -31,3 +31,46 @@ a {
 .title-section{
   height: 80px;
 }
+
+
+
+.title-section{
+  border: 1px rgb(65, 65, 65) solid;
+}
+
+.main-article{
+  height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  border: 1px rgb(65, 65, 65) solid;
+  color: rgb(65, 65, 65);
+  height: 30px;
+  text-align: center;
+  
+}
+footer section p{
+  padding: 5px;
+  margin: 0px;
+}
+
+
+
