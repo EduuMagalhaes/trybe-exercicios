@@ -5,11 +5,29 @@ body {
   display: block;    
 }
 header{
-  border: 1px rgb(65, 65, 65) solid;  
-}
-.title-header{
+  border: 1px rgb(65, 65, 65) solid;
   color: rgb(65, 65, 65);
   text-transform: uppercase;
-  text-align: center;
+  font-weight: bolder; 
+  text-align: center;  
+}
+.title-header{  
   margin: 0px;
+  font-size: 35px;
+  padding: 18px;
+}
+.list-header{  
+  display: inline-block; 
+  font-size: 22px;
+  width: 200px;     
+}
+.nav-header{  
+  border: 1px rgb(65, 65, 65) solid;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.title-section{
+  height: 80px;
 }
