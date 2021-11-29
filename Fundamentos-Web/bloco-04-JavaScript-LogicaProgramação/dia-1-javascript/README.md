@@ -33,6 +33,7 @@ scripts.js
 3 - Crie uma constante chamada perimeter e atribua a ela a soma de todos os lados do retângulo.
 
 
+
 ### JavaScript - Condições If e Else
 
 scripts.js
@@ -88,3 +89,11 @@ Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira"
 Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU".
 
 
+
+### JavaScript - Switch e Case
+
+scripts.js
+
+1 - Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: 'aprovada' , 'lista' ou 'reprovada' ;
+
+2 - Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada' , 'lista' ou 'reprovada' . Como default , imprima a mensagem de 'não se aplica' .
