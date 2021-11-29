@@ -17,3 +17,10 @@ arrays.js
 for.js
 
 1 - Utilize o for para imprimir os elementos da lista groceryList com o console.log().
+
+
+### JavaScript - For/Of
+
+for-of.js
+
+1 - Utilize o for/of para imprimir os elementos da lista names com o console.log().
