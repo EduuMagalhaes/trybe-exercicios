@@ -6,4 +6,4 @@ function somaAll (numero){
   }
   return result;
 }
-console.log(somaAll(6));
+console.log(somaAll(5));
