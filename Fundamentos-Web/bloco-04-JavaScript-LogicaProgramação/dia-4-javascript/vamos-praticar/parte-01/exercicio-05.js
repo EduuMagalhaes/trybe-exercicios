@@ -14,8 +14,10 @@ let info = [
 ];
 for(let key in info[0]){
   if(key === "recorrente" && info[0].recorrente === info[1].recorrente){
-    console.log("Ambos recorrentes");
-    break;
+    if(info[0].recorrente === 'Sim')
+      console.log("Ambos recorrentes"); 
+    else
+    console.log("Ambos não recorrentes");   
   }
   else{
     console.log(info[0][key] + " e " + info[1][key]);
