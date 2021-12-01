@@ -1,4 +1,4 @@
-function indiceDoMaior(array = new Array){
+function maiorPalavra(array = new Array){
   let maior = new String;
   array.forEach(palavra =>{
     if(palavra.length > maior.length)
@@ -6,4 +6,4 @@ function indiceDoMaior(array = new Array){
   });
   return maior;
  }
- console.log(indiceDoMaior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+ console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
