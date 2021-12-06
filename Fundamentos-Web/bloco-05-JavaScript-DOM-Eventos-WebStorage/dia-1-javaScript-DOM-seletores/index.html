@@ -54,6 +54,10 @@
       function correctTagH1() {
         document.getElementsByTagName("h1")[0].innerText = 'Exercício 5.1 - JavaScript';
       }
+      function upperCaseTagP() {
+        let tagP = document.getElementsByTagName("p")[0];
+        tagP.innerText = tagP.innerText.toUpperCase();
+      }
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
@@ -71,6 +75,7 @@
         changeColorYellow();
         changeColorRed();
         correctTagH1();
+        upperCaseTagP();
     </script>
   </body>
 </html>
