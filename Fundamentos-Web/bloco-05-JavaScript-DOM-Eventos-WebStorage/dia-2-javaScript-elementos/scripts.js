@@ -70,3 +70,12 @@ tagsection3.style.marginRight = 'auto';
 
 // Exercicio 05/02
 tagsection1.parentNode.style.backgroundColor = 'green';
+
+// Exercicio 06/02
+let removeItemList = document.querySelectorAll('li');
+for(let i = 0; i <= removeItemList.length; i +=1){
+  let elemento = removeItemList[i];
+  if(elemento.innerText.includes('Nove') || elemento.innerText.includes('Dez')) {
+    tagList.removeChild(elemento);
+  }
+}
