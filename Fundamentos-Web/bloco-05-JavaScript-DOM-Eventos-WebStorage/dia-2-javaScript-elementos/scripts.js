@@ -67,3 +67,6 @@ tagMain.removeChild(tagsection2);
 
 // Exercicio 04/02
 tagsection3.style.marginRight = 'auto';
+
+// Exercicio 05/02
+tagsection1.parentNode.style.backgroundColor = 'green';
