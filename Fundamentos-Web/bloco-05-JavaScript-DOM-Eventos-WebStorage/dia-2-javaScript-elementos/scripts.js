@@ -25,4 +25,14 @@ let tagsection2 = document.createElement('section');
 tagsection2.className = 'left-content';
 tagMain.appendChild(tagsection2);
 
+// Exercicio 06
+let tagsection3 = document.createElement('section');
+tagsection3.className = 'right-content';
+tagMain.appendChild(tagsection3);
+
+// Exercicio 07
+let tagImg = document.createElement("img");
+tagImg.src = 'https://www.gamereactor.pt/media/39/prylardyktupp_2623963.png';
+tagImg.className = 'small-image';
+tagsection2.appendChild(tagImg);
 
