@@ -9,3 +9,10 @@ body.appendChild(tagH1);
 let tagMain = document.createElement('main');
 tagMain.className = 'main-content';
 body.appendChild(tagMain);
+
+// Exercicio 03
+let tagsection1 = document.createElement('section');
+tagsection1.className = 'center-content ';
+tagMain.appendChild(tagsection1);
+
+// Exercicio 04
