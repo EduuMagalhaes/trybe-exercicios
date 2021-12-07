@@ -12,7 +12,11 @@ body.appendChild(tagMain);
 
 // Exercicio 03
 let tagsection1 = document.createElement('section');
-tagsection1.className = 'center-content ';
+tagsection1.className = 'center-content';
 tagMain.appendChild(tagsection1);
 
 // Exercicio 04
+let tagP1 = document.createElement('p');
+tagP1.innerText = 'Risus nisi faucibus lacinia urna quisque enim eu elit tristique venenatis, facilisis mi eget non augue rhoncus arcu ligula per eget, iaculis pretium nostra condimentum himenaeos risus congue convallis pretium.';
+tagsection1.appendChild(tagP1);
+
