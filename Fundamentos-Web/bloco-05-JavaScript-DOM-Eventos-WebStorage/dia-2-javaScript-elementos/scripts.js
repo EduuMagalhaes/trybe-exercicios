@@ -53,8 +53,14 @@ for(let i = 0; i < 3; i += 1) {
   tagMain.appendChild(tagH3);
 }
 
-// Exercicio 01 segunda parte
+// Exercicio 01/02
 tagH1.className = 'title';
+
+// Exercicio 02/02
+let tagH3s = document.getElementsByTagName('h3');
+for(let i of tagH3s) {
+  i.className = 'description';
+}
 
 
 
