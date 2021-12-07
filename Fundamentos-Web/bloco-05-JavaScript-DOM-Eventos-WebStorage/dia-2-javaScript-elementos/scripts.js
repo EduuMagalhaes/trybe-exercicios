@@ -65,5 +65,5 @@ for(let i of tagH3s) {
 // Exercicio 03/02
 tagMain.removeChild(tagsection2);
 
-
-
+// Exercicio 04/02
+tagsection3.style.marginRight = 'auto';
