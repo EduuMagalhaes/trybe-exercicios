@@ -20,3 +20,9 @@ let tagP1 = document.createElement('p');
 tagP1.innerText = 'Risus nisi faucibus lacinia urna quisque enim eu elit tristique venenatis, facilisis mi eget non augue rhoncus arcu ligula per eget, iaculis pretium nostra condimentum himenaeos risus congue convallis pretium.';
 tagsection1.appendChild(tagP1);
 
+// Exercicio 05
+let tagsection2 = document.createElement('section');
+tagsection2.className = 'left-content';
+tagMain.appendChild(tagsection2);
+
+
