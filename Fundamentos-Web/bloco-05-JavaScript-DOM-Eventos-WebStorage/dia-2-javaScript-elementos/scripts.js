@@ -62,5 +62,8 @@ for(let i of tagH3s) {
   i.className = 'description';
 }
 
+// Exercicio 03/02
+tagMain.removeChild(tagsection2);
+
 
 
