@@ -46,4 +46,11 @@ for(let i of valoresNum) {
   tagList.appendChild(listaValores);
 }
 
+// Exercicio 09
+for(let i = 0; i < 3; i += 1) {
+  let tagH3 = document.createElement('h3');
+  tagH3.innerText = 'Texto';
+  tagMain.appendChild(tagH3);
+}
+
 
