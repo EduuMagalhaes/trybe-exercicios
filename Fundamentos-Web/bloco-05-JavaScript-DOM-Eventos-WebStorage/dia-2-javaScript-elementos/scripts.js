@@ -36,3 +36,14 @@ tagImg.src = 'https://www.gamereactor.pt/media/39/prylardyktupp_2623963.png';
 tagImg.className = 'small-image';
 tagsection2.appendChild(tagImg);
 
+// Exercicio 08
+let valoresNum = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis','Sete', 'Oito', 'Nove', 'Dez'];
+let tagList = document.createElement('ul');
+tagsection3.appendChild(tagList);
+for(let i of valoresNum) {
+  let listaValores = document.createElement('li');
+  listaValores.innerText = i;
+  tagList.appendChild(listaValores);
+}
+
+
