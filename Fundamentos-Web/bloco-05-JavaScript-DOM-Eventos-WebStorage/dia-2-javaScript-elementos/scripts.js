@@ -53,4 +53,8 @@ for(let i = 0; i < 3; i += 1) {
   tagMain.appendChild(tagH3);
 }
 
+// Exercicio 01 segunda parte
+tagH1.className = 'title';
+
+
 
