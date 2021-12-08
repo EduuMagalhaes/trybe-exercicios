@@ -120,3 +120,22 @@ function addEventButtonFriday() {
 }
 addEventButtonFriday();
 
+// Exercicio 06
+
+function zoomDaysUpp(){  
+  let days = document.querySelector("#days")
+  days.addEventListener('mouseover', function(event) {    
+    event.target.style.fontWeight = '600';
+    event.target.style.fontSize = '35px';
+    
+  });
+}
+function zoomDaysDown(){ 
+  let days = document.querySelector("#days")
+  days.addEventListener('mouseout', function(event) {
+    event.target.style.fontWeight = '200';
+    event.target.style.fontSize = '20px';
+  });
+}
+zoomDaysUpp();
+zoomDaysDown();
