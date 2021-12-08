@@ -160,3 +160,19 @@ function legendSpan(cor) {
   divElement.appendChild(div);
 }
 legendSpan('gray');
+
+// Exercicio 09
+
+function taskSelection() {
+  const task = document.querySelector('.task');
+
+  task.addEventListener('click', function(event) {
+    if(event.target.className === 'task') {      
+      event.target.className = 'task selected';      
+    } else {    
+      event.target.className = 'task';      
+    }
+  });
+}
+
+taskSelection();
