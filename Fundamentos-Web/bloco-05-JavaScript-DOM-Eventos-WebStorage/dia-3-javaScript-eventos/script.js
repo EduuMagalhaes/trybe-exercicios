@@ -159,7 +159,7 @@ function legendSpan(cor) {
   div.style.background = cor;
   divElement.appendChild(div);
 }
-legendSpan('gray');
+legendSpan('purple');
 
 // Exercicio 09
 
@@ -176,3 +176,21 @@ function taskSelection() {
 }
 
 taskSelection();
+
+// Exercicio 10
+
+function colorDay() {
+  let days = document.querySelector("#days");    
+
+  days.addEventListener('click', function(event){
+    let divElement = document.querySelector('.selected');
+    if(divElement != null && event.target.style.color != divElement.style.backgroundColor) {
+      event.target.style.color = divElement.style.backgroundColor;
+    } else {
+      event.target.style.color = 'rgb(119,119,119)';
+    }
+  });  
+
+}
+
+colorDay();
