@@ -63,6 +63,29 @@ function addButton() {
 
   let buttonHoliday = document.createElement('button');
   buttonHoliday.innerText = 'Feriados';
+  buttonHoliday.id = 'btn-holiday';
   div.appendChild(buttonHoliday);
 }
 addButton();
+
+// Exercicio 03
+
+function addEventButton() { 
+  let button = document.querySelector('#btn-holiday');
+  let holiday = document.querySelectorAll('.holiday'); 
+  let background = 'rgb(238,238,238)'; 
+  let newBackground = 'rgb(211, 211, 211)';
+
+  button.addEventListener('click', function() {   
+    for(let index of holiday) {        
+      if(index.style.backgroundColor === newBackground) {
+        index.style.backgroundColor = background;        
+      } else {
+        index.style.backgroundColor = newBackground;
+      }
+    }
+  });
+}
+addEventButton();
+
+// Exercicio 04
