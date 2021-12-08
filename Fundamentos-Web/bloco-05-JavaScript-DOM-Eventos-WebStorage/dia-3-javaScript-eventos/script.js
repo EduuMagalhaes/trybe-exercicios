@@ -54,13 +54,15 @@ function createDaysOfMonth() {
     monthDaysList.appendChild(elementLi);
   }
 }
-
-
-
-
-
-
-
 createDaysOfMonth();
 
-// Exercicio 01
+// Exercicio 02
+
+function addButton() {
+  const div = document.querySelector('.buttons-container')
+
+  let buttonHoliday = document.createElement('button');
+  buttonHoliday.innerText = 'Feriados';
+  div.appendChild(buttonHoliday);
+}
+addButton();
