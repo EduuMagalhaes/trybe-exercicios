@@ -58,15 +58,15 @@ createDaysOfMonth();
 
 // Exercicio 02
 
-function addButton() {
+function addButton(buttonName) {
   const div = document.querySelector('.buttons-container')
 
   let buttonHoliday = document.createElement('button');
-  buttonHoliday.innerText = 'Feriados';
+  buttonHoliday.innerText = buttonName;
   buttonHoliday.id = 'btn-holiday';
   div.appendChild(buttonHoliday);
 }
-addButton();
+addButton('Feriados');
 
 // Exercicio 03
 
@@ -89,3 +89,34 @@ function addEventButton() {
 addEventButton();
 
 // Exercicio 04
+
+function addButtonFriday(buttonName) {
+  const div = document.querySelector('.buttons-container')
+
+  let buttonHoliday = document.createElement('button');
+  buttonHoliday.innerText = buttonName;
+  buttonHoliday.id = 'btn-friday';
+  div.appendChild(buttonHoliday);
+}
+addButtonFriday('Sexta-feira');
+
+// Exercicio 05
+
+function addEventButtonFriday() { 
+  let button = document.querySelector('#btn-friday');
+  let fridays = document.querySelectorAll('.friday');
+  let colorText = '#777';
+  let newColorText = 'red';
+
+  button.addEventListener('click', function() {   
+    for(let index of fridays) {        
+      if(index.style.color === newColorText) {
+        index.style.color = colorText;        
+      } else {
+        index.style.color = newColorText;
+      }
+    }
+  });
+}
+addEventButtonFriday();
+
