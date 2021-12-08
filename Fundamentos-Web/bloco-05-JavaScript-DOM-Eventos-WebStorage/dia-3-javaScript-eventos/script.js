@@ -149,3 +149,14 @@ function addTask(string) {
   div.appendChild(span);
 }
 addTask('Dormir !')
+
+// Exercicio 08
+
+function legendSpan(cor) {
+  const div = document.createElement('div');
+  const divElement = document.querySelector('.my-tasks');
+  div.className = 'task';
+  div.style.background = cor;
+  divElement.appendChild(div);
+}
+legendSpan('gray');
