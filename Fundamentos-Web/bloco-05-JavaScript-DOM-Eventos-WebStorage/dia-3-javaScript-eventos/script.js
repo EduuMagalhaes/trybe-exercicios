@@ -139,3 +139,13 @@ function zoomDaysDown(){
 }
 zoomDaysUpp();
 zoomDaysDown();
+
+// Exercicio 07
+
+function addTask(string) {
+  const div = document.querySelector('.my-tasks');
+  const span = document.createElement('span');
+  span.innerText = string;
+  div.appendChild(span);
+}
+addTask('Dormir !')
