@@ -148,7 +148,7 @@ function addTask(string) {
   span.innerText = string;
   div.appendChild(span);
 }
-addTask('Dormir !')
+addTask('Estudar: ')
 
 // Exercicio 08
 
@@ -189,8 +189,41 @@ function colorDay() {
     } else {
       event.target.style.color = 'rgb(119,119,119)';
     }
-  });  
+  }); 
+}
+colorDay();
+
+// Bônus
+
+function addComp() {
+  let listaComp = document.querySelector('.task-list');
+  let buttonComp = document.querySelector('#btn-add');
+  let campComp = document.querySelector('#task-input');
+
+  buttonComp.addEventListener('click', function(event){
+    if(campComp.value.length >= 3) {
+    const elementLiButton = document.createElement('li');
+    elementLiButton.innerText = campComp.value;
+    campComp.value = '';
+    listaComp.appendChild(elementLiButton);
+    } else {
+      alert('Compromisso deve ter pelomenos 3 caracteres.');
+    }
+  });
+  campComp.addEventListener('keyup', function(event){
+
+    if(event.key === 'Enter' && campComp.value.length >= 3) {
+    const elementLiButton = document.createElement('li');
+    elementLiButton.innerText = campComp.value;
+    campComp.value = '';
+    listaComp.appendChild(elementLiButton);
+    } else {
+      if(event.key === 'Enter'){
+        alert('Compromisso deve ter pelomenos 3 caracteres.');
+      }
+    }
+  });
 
 }
 
-colorDay();
+addComp();
