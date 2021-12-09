@@ -213,15 +213,15 @@ function addComp() {
   campComp.addEventListener('keyup', function(event){
 
     if(event.key === 'Enter' && campComp.value.length >= 3) {
-    const elementLiButton = document.createElement('li');
-    elementLiButton.innerText = campComp.value;
-    campComp.value = '';
-    listaComp.appendChild(elementLiButton);
+      const elementLiButton = document.createElement('li');
+      elementLiButton.innerText = campComp.value;
+      campComp.value = '';
+      listaComp.appendChild(elementLiButton);
     } else {
-      if(event.key === 'Enter'){
-        alert('Compromisso deve ter pelomenos 3 caracteres.');
+        if(event.key === 'Enter'){
+          alert('Compromisso deve ter pelomenos 3 caracteres.');
+        }
       }
-    }
   });
 
 }
