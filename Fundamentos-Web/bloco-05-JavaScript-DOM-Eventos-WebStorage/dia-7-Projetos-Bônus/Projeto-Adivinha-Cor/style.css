@@ -1,0 +1,38 @@
+* {
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(179, 194, 207);
+  padding: 50px;
+}
+
+main {
+  background-color: rgb(236, 241, 245);
+  color: rgb(179, 194, 207);
+  height: 809px;
+  padding: 50px;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(236, 241, 245);
+}
+
+#rgb-color , #answer {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.ball {
+  border: 3px solid rgb(179, 194, 207);
+  border-radius: 100%;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
