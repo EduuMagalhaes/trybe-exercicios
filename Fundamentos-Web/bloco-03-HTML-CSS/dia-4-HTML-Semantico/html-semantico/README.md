@@ -4,7 +4,7 @@
 ### HTML Semântico
 
 index.html
-```javascrip
+```javascript
 <!DOCTYPE html>
 <html>
   <head>
