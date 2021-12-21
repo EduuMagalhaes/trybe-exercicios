@@ -4,6 +4,18 @@
 ### HTML - Primeiras tags
 
 index.html
+```javascript
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+  </body>
+</html>
+```
 
 1 - Crie uma lista das pessoas que você já fez amizade na Trybe.
 
@@ -13,6 +25,20 @@ index.html
 
 
 ### HTML - Links externos e internos
+
+index.html
+```javascript
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+  </body>
+</html>
+```
 
 1 - Crie um parágrafo para cada pessoa da sua lista.
 

@@ -1,0 +1,43 @@
+* {
+  background-color: rgb(253, 251, 251);
+  font-family: Georama, sans-serif;
+  color: rgb(65, 65, 65);
+
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+
+}
+
+#minha_foto {
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid rgb(65, 65, 65);
+
+}
+
+.list-nav {
+  display: inline;
+
+}
+
+#rodape {
+  font-size: 10px;
+  line-height: 5px;
+
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+
+}
