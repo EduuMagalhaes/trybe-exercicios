@@ -11,7 +11,7 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
 
 Faça as validações inicialmente pelo HTML
 
-1 - Crie um <fieldset> para os seguintes dados pessoais:
+1 - Crie um fieldset para os seguintes dados pessoais:
  * Nome - Texto
     * Limite de 40 caracteres
     * Campo obrigatório
@@ -29,13 +29,13 @@ Faça as validações inicialmente pelo HTML
     * Campo obrigatório
  * Estado - Select
     * Todos os estados do Brasil
-    * Utilize estruturas de repetição via JavaScript para gerar os <option>
+    * Utilize estruturas de repetição via JavaScript para gerar os option
     * Campo obrigatório
  * Tipo - Radio Button
     * Casa, Apartamento
     * Campo obrigatório
 
-2 - Crie outro <fieldset> para dados do seu último emprego
+2 - Crie outro fieldset para dados do seu último emprego
 * Resumo do currículo - TextArea
     * Limite de 1000 caracteres
     * Campo obrigatório
@@ -56,34 +56,7 @@ Faça as validações inicialmente pelo HTML
 3 - Logo abaixo do formulário, crie um botão que:
 * Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() . Note que isso vai impedir as validações do HTML ao fazer o submit
 * Implemente, agora, no Javascript , as validações que foram pedidas ao longo da montagem do formulário.
-* Caso todos os dados sejam válidos, monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
-* Caso haja algum dado inválido, mostre em uma <div> uma mensagem de erro. Se o erro for na Data de Início , a mensagem deve ser contextualizada.  
+* Caso todos os dados sejam válidos, monte uma div com o consolidado dos dados que foram inseridos no formulário.
+* Caso haja algum dado inválido, mostre em uma div uma mensagem de erro. Se o erro for na Data de Início , a mensagem deve ser contextualizada.  
 
-4 - Crie um botão Limpar que limpa todos os campos do formulário e a <div> com seu currículo também.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-enhuma novidade, mas essa demanda exige que você aplique preferências das pessoas leitoras na página para melhorar a experiência de leitura dessas pessoas.
-As pessoas devem ter o poder de alterar:
- * Cor de fundo da tela;
- * Cor do texto;
- * Tamanho da fonte;
- * Espaçamento entre as linhas do texto;
- * Tipo da fonte ( Font family ).
-Essas preferências devem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas possam ser aplicadas na tela.
-
-#### Bônus
-
-* As propriedades descritas acima são obrigatórias , mas você é livre para adicionar qualquer outra propriedade que julgar válida e que tenha como objetivo a melhora da experiência da pessoa que lê em sua página.
+4 - Crie um botão Limpar que limpa todos os campos do formulário e a div com seu currículo também.
