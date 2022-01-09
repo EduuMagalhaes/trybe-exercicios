@@ -1,0 +1,6 @@
+@import './node_modules/pikaday/css/pikaday.css';
+body{  
+  color: rgb(75, 75, 75);
+  background-color: rgb(228, 228, 228);
+  margin: 0;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="styles.css">  
+  <title>Formulário de currículo.</title>
+</head>
+<body>
+  <header class="container mb-3">
+    <h1 class="display-3 text-center">Formulário de currículo.</h1>
+  </header>
+  <main>
+    <form action="#" method="GET" id="form" class="container mb-3">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div class="container mb-3">
+          <label class="form-label" for="name-input">Nome:</label>
+          <input type="text" name="name" id="name-input" class="form-control" placeholder="Digite o Nome Completo" maxlength="40" required>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="email-input">Email:</label>
+          <input type="text" name="email" id="email-input" class="form-control" placeholder="Digite seu email" maxlength="50" required>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="cpf-input">CPF:</label>
+          <input type="text" name="cpf"  id="cpf-input" class="form-control" placeholder="Digite o CPF" maxlength="11" required>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="endereço-input">Endereço:</label>
+          <input type="text" name="endereço" id="endereço-input" class="form-control" placeholder="Digite o Endereço" maxlength="200" required>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="cidade-input">Cidade:</label>
+          <input type="text" name="cidade" id="cidade-input" class="form-control" placeholder="Digite a Cidade"  maxlength="28" required>
+        </div>
+        <div class="container mb-3"> 
+          <label class="form-label" for="estado-select">Estado:</label>
+          <select id="estado-select" class="form-select" name="estado" required>  
+          <option id="estado-option" disabled selected value>Estado</option>          
+          </select>
+        </div>
+        <div class="container mb-3" id="radio-group"> 
+          <label class="form-label" for="">Tipo:</label>
+          <div class="form-check-inline">
+            <input type="radio" name="tipo" id="casa" class="tipo-input" value="casa" required>
+            <label class="form-label" for="casa">Casa</label>
+          </div>
+          <div class="form-check-inline">
+              <input type="radio" name="tipo" id="ap" class="tipo-input" value="apartamento" required>
+              <label class="form-label" for="ap">Apartamento</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados da Vaga</legend>
+        <div class="container mb-3">
+          <label class="form-label" for="resuno-textarea">Resumo do currículo: </label>
+          <textarea name="resumo" id="resuno-textarea" class="form-control" maxlength="1000" cols="30" rows="10" required></textarea>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="cargo-input">Cargo:</label>
+          <input type="text" name="cargo" id="cargo-input" class="form-control" placeholder="Digite o Cargo" maxlength="40" required>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="cargodesc-input">Descrição do cargo:</label>
+          <input type="text" name="cargodesc" id="cargodesc-input" class="form-control" placeholder="Digite a Descrição Do Cargo" maxlength="500" required>
+        </div>
+        <div class="container mb-3">
+          <label class="form-label" for="data-input">Data de inicio:</label>
+          <input type="text" name="data" id="data-input" class="form-control" required>
+        </div>
+      </fieldset>
+      <div class="container mb-3">
+        <div id="return-div"></div>  
+      </div>
+      <div class="button-div">
+        <button type="submit" id="button-enviar" class="btn btn-light">Enviar</button>
+        <button type="reset" id="button-limpar" class="btn btn-light">Limpar</button>
+      </div>
+    </form>         
+  </main>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>  
+  <script src="script.js" type="module"></script>
+  <script src="./node_modules/pikaday/pikaday.js"></script>
+</body>
+</html>
