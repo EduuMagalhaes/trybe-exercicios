@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+  <title>Formulário de currículo.</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Formulário de currículo.</h1>
+  </header>
+  <main>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div class="line-div">
+          <label for="name-input">Nome:</label>
+          <input type="text" name="name" id="name-input" maxlength="40" required>
+        </div>
+        <div class="line-div">
+          <label for="email-input">Email:</label>
+          <input type="text" name="email" id="email-input" maxlength="50" required>
+        </div>
+        <div class="line-div">
+          <label for="cpf-input">CPF:</label>
+          <input type="text" name="cpf"  id="cpf-input" maxlength="11" required>
+        </div>
+        <div class="line-div">
+          <label for="endereço-input">Endereço:</label>
+          <input type="text" name="endereço" id="endereço-input" maxlength="200" required>
+        </div>
+        <div class="line-div">
+          <label for="cidade-input">Cidade:</label>
+          <input type="text" name="cidade" id="cidade-input" maxlength="28" required>
+        </div>
+        <div class="line-div"> 
+          <label for="estado-select">Estado:</label>
+          <select id="estado-select" name="estado" required>  
+          <option id="estado-option" disabled selected value>Estado</option>          
+          </select>
+        </div>
+        <div class="line-div">
+          <label for="">Tipo:</label>
+          <input type="radio" name="tipo" class="tipo-input" value="casa" required>Casa
+          <input type="radio" name="tipo" class="tipo-input" value="apartamento" required>Apartamento
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados da Vaga</legend>
+        <div class="line-div">
+          <label for="resuno-textarea">Resumo do currículo: </label>
+          <textarea name="resumo" id="resuno-textarea" maxlength="1000" cols="30" rows="10" required></textarea>
+        </div>
+        <div class="line-div">
+          <label for="cargo-input">Cargo:</label>
+          <input type="text" name="cargo" id="cargo-input" maxlength="40" required>
+        </div>
+        <div class="line-div">
+          <label for="cargodesc-input">Descrição do cargo:</label>
+          <input type="text" name="cargodesc" id="cargodesc-input" maxlength="500" required>
+        </div>
+        <div class="line-div">
+          <label for="data-input">Data de inicio:</label>
+          <input type="text" name="data" id="data-input" required>
+        </div>
+      </fieldset>
+      <div class="button-div">
+        <button type="submit" id="button-enviar">Enviar</button>
+        <button type="reset" id="button-limpar">Limpar</button>
+      </div>
+    </form>    
+    <div id="return-div"></div>    
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
