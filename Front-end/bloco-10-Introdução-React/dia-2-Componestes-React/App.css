@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.header {
+  font-size: 60px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-div {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pokemon-card {
+  display: flex;  
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 25%) 2px 2px 4px 2px;;
+}
+
+.pokemon-info {
+  margin: 15px;
+}
+
