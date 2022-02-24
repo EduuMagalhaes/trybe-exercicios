@@ -1,0 +1,11 @@
+.pokemon-card {  
+  display: flex;  
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 25%) 2px 2px 4px 2px;;
+}
+  
+.pokemon-info {
+  margin: 15px;  
+}
