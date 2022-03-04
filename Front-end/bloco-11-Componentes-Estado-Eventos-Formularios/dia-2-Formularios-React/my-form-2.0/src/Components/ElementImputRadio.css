@@ -1,0 +1,12 @@
+.input-radio input {
+  width: 25px;
+}
+
+.input-radio div {
+  display: flex;    
+}
+
+.input-radio p {
+  text-align: left;    
+}
+
